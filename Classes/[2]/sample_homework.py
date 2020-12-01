@@ -15,3 +15,6 @@ if input('Enter Password: ') == PASSWORD:
         print('You chose an unavailable choice, the police came and captured you.')
 else:
     print('Incorrect password!! Calling police...')
+
+and_ = 123
+print(and_)
