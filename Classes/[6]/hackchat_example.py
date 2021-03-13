@@ -12,6 +12,7 @@ def try_reply(chat_:hackchat.HackChat, message, sender):
         color = format(randint(0, 255), 'x')+format(randint(0, 255), 'x')+format(randint(0, 255), 'x')
         print(color)
         chat_._send_packet({'cmd': 'changecolor', 'color': color})
+        chat.send_message('I changed my color!.')
 
 
 def welcome(chat_, username):
